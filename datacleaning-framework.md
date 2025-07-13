@@ -26,38 +26,31 @@ A practical 5-step framework to clean complex data.
 ---
 
 ## 🧩 Phase I
-
 1. **Missing Values & Inconsistences**  
 - Avoid imputation unless justified—it can introduce bias.
 - Check for inconsistent categories (e.g. `"XBOX"` vs `"Xbox"`)
 - Identify near-duplicates and format mismatches
 - Spot nonsensical entries.
-
 2. **Outliers**  
 - Investigate before removing. Outliers might reflect real user behavior or valid edge cases.
-
 3. **Business Logic Violations**  
 - Example: Shipping before purchase. Flag and surface these in your insights—they often require stakeholder input.
-
 4. **Nulls Without Source of Truth**  
 - Document clearly and exclude from any critical analysis that requires certainty.
-
 5. **Duplicates**  
 - Identify and handle all variations of duplicates — exact, fuzzy (near-duplicates) and structural, especially across integrated systems.
-   
 
 ---
 
 ## 🧼 Phase II
+1. **Replicate Before You Modify**  
+- Always create a copy of the original dataset before applying changes.
 
-- **Replicate Before You Modify**  
-  Always create a copy of the original dataset before applying changes.
+2. **Use Suffixes**  
+- Label transformed columns with `_cleaned` or similar. Never overwrite raw columns.
 
-- **Use Suffixes**  
-  Label transformed columns with `_cleaned` or similar. Never overwrite raw columns.
-
-- **Log the Issues**  
-  Maintain detailed logs or comments. They reflect analytical rigor and support team visibility.
+3. **Log the Issues**  
+- Maintain detailed logs or comments. They reflect analytical rigor and support team visibility.
   
    **📋 Sample Issue Log Format**
 
@@ -66,6 +59,11 @@ A practical 5-step framework to clean complex data.
    | orders | ship_date    | Missing values               | 627       | No        | Flag as incomplete         |
    | orders | purchase_ts  | Ship date before purchase    | 48        | Yes       | Flag for review            |
    | orders | country_code | Inconsistent format          | 2,194     | Yes       | Standardise to ISO format  |
+
+---
+## 📌 Rule of Thumb
+
+> If fewer than ~20% of rows are affected by an unsolvable issue. **Document it, flag it, and analyse.**
 
 ---
 
@@ -80,11 +78,6 @@ Good analysts focus on clarity—not perfection. Here are a few mindset principl
 
 ---
 
-## 📌 Rule of Thumb
-
-> If fewer than ~20% of rows are affected by an unsolvable issue. **Document it, flag it, and analyse.**
-
----
 ## 🧠 Final Thoughts
 
 Before jumping into analysis, ask yourself. **What story does this data help me tell?**

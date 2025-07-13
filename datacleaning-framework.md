@@ -43,7 +43,7 @@ A practical 5-step framework to clean complex data.
 - Document clearly and exclude from any critical analysis that requires certainty.
 
 5. **Duplicates**  
-- Identify and handle all variants—exact, fuzzy, structural—especially across integrated systems.
+- Identify and handle all variations of duplicates — exact, fuzzy (near-duplicates) and structural, especially across integrated systems.
    
 
 ---

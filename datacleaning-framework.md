@@ -3,7 +3,8 @@
 An intuitive framework for analysts and data scientists to solve messy data problems with precision and scalability.
 
 ### The TRACE Framework
-This framework ensures that data cleaning isn’t just reactive—it’s thoughtful, scalable, and client-ready. Use TRACE to uncover the story behind your data, avoid hidden pitfalls, and deliver insights with confidence.
+This framework ensures that data cleaning isn’t just reactive, it’s thoughtful, scalable, and client-ready. 
+Use TRACE to uncover the story behind your data, avoid hidden pitfalls, and deliver insights with confidence.
 
 | Step | Description |
 |------|-------------|

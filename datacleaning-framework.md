@@ -1,11 +1,15 @@
-## The CLEAN Framework
+## 🚦 Data Got Messy? TRACE It Back to Clarity
 
-A 5-step framework used by analysts to clean data thoughtfully and effectively.
+An intuitive framework for analysts and data scientists to solve messy data problems with precision and scalability.
 
-| Step | Description                                                                                         |
-|-------|--------------------------------------------------------------------------------------------------|
-| C - Conceptualise         | Understand what each row represents and what metrics/dimensions are involved             |
-| L - Locate solvable issues| Identify fixable problems like inconsistent formats, duplicates, and nulls              |
-| E - Evaluate unsolvable issues | Surface issues that lack context or violate business logic                          |
-| A - Augment the data      | Create new columns or features without overwriting originals                           |
-| N - Note and document     | Log all issues, decisions, and resolutions for transparency                           |
+### The TRACE Framework
+
+| Step | Description |
+|------|-------------|
+| **T – Tag issues** | Identify common data problems—missing values, duplicate variants, inconsistent formats, outliers |
+| **R – Review structure** | Understand what each row represents, explore schema, and map columns to business context |
+| **A – Amend selectively** | Clean or engineer new columns without overwriting the original source—preserve raw integrity |
+| **C – Check for logic conflicts** | Surface deeper issues—e.g. timestamp anomalies, invalid categories, or broken relationships |
+| **E – Establish documentation** | Log issues, decisions, fixes, assumptions, and flags for transparency and future collaboration |
+
+Use TRACE to uncover the story behind your data, avoid hidden pitfalls, and deliver insights with confidence.

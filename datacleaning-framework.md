@@ -25,7 +25,7 @@ Real analysts don’t chase perfection. We aim for clarity, consistency, and ins
 - 🕹 Omnichannel presence: website, mobile app, and diverse marketing campaigns  
 - 🎯 Dataset includes user journeys, purchases, product metadata, shipping details, and engagement metrics
 
-## 🧪 First-Pass Cleaning Steps
+## 🧪 Step 1
 
 Real analysts don’t chase perfection—we aim for clarity, consistency, and insight. Here’s how we clean data before deeper analysis:
 
@@ -51,5 +51,3 @@ Real analysts don’t chase perfection—we aim for clarity, consistency, and in
    | orders | country_code | Inconsistent format          | 2,194     | Yes       | Standardise to ISO format  |
 
 ---
-
-📘 *Evaluating issue magnitude helps prioritise the fixes and ensures cleaner insights downstream.*

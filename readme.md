@@ -11,8 +11,3 @@ This framework captures the five essential steps to prepare messy data for meani
 | E    | **Evaluate unsolvable issues** | Spot tricky problems like nulls, ambiguous values, or data loss that require judgment.    |
 | A    | **Augment & resolve issues**   | Apply logical, documented fixes—cleaning with intention, not guesswork.                  |
 | N    | **Note & document changes**    | Create a changelog for traceability and future reproducibility.                          |
-
-> 📄 **Want to see this framework in action?**  
-> See the full step-by-step guide with examples:  
-> 🔗 [Read the full Series 1 Data Cleaning Steps ➜](./Series1_Data_Cleaning_Steps.md)
-

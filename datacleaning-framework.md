@@ -23,36 +23,15 @@ A practical 5-step framework to clean complex data.
 - 🕹 Omnichannel presence: website, mobile app, and diverse marketing campaigns  
 - 🎯 Dataset includes user journeys, purchases, product metadata, shipping details, and engagement metrics
 
-## 🧪 Overview
-Real analysts don’t chase perfection—we aim for clarity, consistency, and insight. Here’s how we clean data before deeper analysis:
-
-1. **Eyeball for Obvious Issues**
-   - Look for missing values
-   - Identify duplicate variants (exact, fuzzy, structural)
-   - Spot nonsensical or out-of-range entries
-
-2. **Inspect Distinct Values**
-   - Check for inconsistent categories (e.g. `"XBOX"` vs `"Xbox"`)
-   - Identify near-duplicates and format mismatches
-
-3. **Log the Issues**
-   - Use a structured issue log to track problems and resolutions
-   - Helps surface major issues and prioritise which to fix first
-
-   **📋 Sample Issue Log Format**
-
-   | Table  | Column       | Issue                        | Row Count | Solvable? | Resolution                 |
-   |--------|--------------|------------------------------|-----------|-----------|----------------------------|
-   | orders | ship_date    | Missing values               | 627       | No        | Flag as incomplete         |
-   | orders | purchase_ts  | Ship date before purchase    | 48        | Yes       | Flag for review            |
-   | orders | country_code | Inconsistent format          | 2,194     | Yes       | Standardise to ISO format  |
-
 ---
 
 ## 🧩 Step 1: Handling Specific Issues
 
-1. **Missing Values**  
-   Avoid imputation unless justified—it can introduce bias.
+1. **Missing Values & Inconsistences**  
+   - Avoid imputation unless justified—it can introduce bias.
+   - Check for inconsistent categories (e.g. `"XBOX"` vs `"Xbox"`)
+   - Identify near-duplicates and format mismatches
+   - Spot nonsensical entries.
 
 2. **Outliers**  
    Investigate before removing. Outliers might reflect real user behavior or valid edge cases.
@@ -65,6 +44,7 @@ Real analysts don’t chase perfection—we aim for clarity, consistency, and in
 
 5. **Duplicates**  
    Identify and handle all variants—exact, fuzzy, structural—especially across integrated systems.
+   
 
 ---
 
@@ -76,8 +56,16 @@ Real analysts don’t chase perfection—we aim for clarity, consistency, and in
 - **Use Suffixes**  
   Label transformed columns with `_cleaned` or similar. Never overwrite raw columns.
 
-- **Document Thoughtfully**  
+- **Log the Issues**  
   Maintain detailed logs or comments. They reflect analytical rigor and support team visibility.
+  
+   **📋 Sample Issue Log Format**
+
+   | Table  | Column       | Issue                        | Row Count | Solvable? | Resolution                 |
+   |--------|--------------|------------------------------|-----------|-----------|----------------------------|
+   | orders | ship_date    | Missing values               | 627       | No        | Flag as incomplete         |
+   | orders | purchase_ts  | Ship date before purchase    | 48        | Yes       | Flag for review            |
+   | orders | country_code | Inconsistent format          | 2,194     | Yes       | Standardise to ISO format  |
 
 ---
 

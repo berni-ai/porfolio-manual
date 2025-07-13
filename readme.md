@@ -1,4 +1,4 @@
-# 🧹 Series 1: The CLEAN Framework for Data Cleaning
+# Series 1: The CLEAN Framework for Data Cleaning
 
 Before you analyze, **CLEAN your data**.
 

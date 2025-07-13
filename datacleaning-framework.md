@@ -1,6 +1,6 @@
 ## 🧼 How Real Data Analysts Clean Data on the Job?
 
-Real analysts don’t chase perfection. We aim for clarity, consistency, and insight *good enough to analyze, share, and iterate on.*
+Real analysts/data scientist do not chase perfection. We aim for clarity, consistency, and insight *good enough to analyze, share, and iterate on.*
 
 ---
 

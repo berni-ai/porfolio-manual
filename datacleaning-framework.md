@@ -6,6 +6,7 @@ An intuitive framework for analysts and data scientists to solve messy data prob
 
 | Step | Description |
 |------|-------------|
+
 | **T – Tag issues** | Identify common data problems: missing values, inconsistent formats, noise, and duplicates—including exact, near, fuzzy, and structural variants |
 | **R – Review structure** | Understand what each row represents, explore schema, and map variables to business context |
 | **A – Amend selectively** | Clean or engineer new columns without overwriting the original source—preserve raw integrity |

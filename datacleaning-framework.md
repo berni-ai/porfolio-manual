@@ -28,22 +28,22 @@ A practical 5-step framework to clean complex data.
 ## 🧩 Step 1: Handling Specific Issues
 
 1. **Missing Values & Inconsistences**  
-   - Avoid imputation unless justified—it can introduce bias.
-   - Check for inconsistent categories (e.g. `"XBOX"` vs `"Xbox"`)
-   - Identify near-duplicates and format mismatches
-   - Spot nonsensical entries.
+- Avoid imputation unless justified—it can introduce bias.
+- Check for inconsistent categories (e.g. `"XBOX"` vs `"Xbox"`)
+- Identify near-duplicates and format mismatches
+- Spot nonsensical entries.
 
 2. **Outliers**  
-   Investigate before removing. Outliers might reflect real user behavior or valid edge cases.
+- Investigate before removing. Outliers might reflect real user behavior or valid edge cases.
 
 3. **Business Logic Violations**  
-   Example: Shipping before purchase. Flag and surface these in your insights—they often require stakeholder input.
+- Example: Shipping before purchase. Flag and surface these in your insights—they often require stakeholder input.
 
 4. **Nulls Without Source of Truth**  
-   Document clearly and exclude from any critical analysis that requires certainty.
+- Document clearly and exclude from any critical analysis that requires certainty.
 
 5. **Duplicates**  
-   Identify and handle all variants—exact, fuzzy, structural—especially across integrated systems.
+- Identify and handle all variants—exact, fuzzy, structural—especially across integrated systems.
    
 
 ---

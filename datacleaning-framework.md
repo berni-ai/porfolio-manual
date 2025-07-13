@@ -4,26 +4,13 @@ An intuitive framework for analysts and data scientists to solve messy data prob
 
 ### The TRACE Framework
 
-- **T – Tag issues**  
-  Identify common data problems:
-  - Missing values  
-  - Duplicate variants (exact, fuzzy, structural)  
-  - Inconsistent formats  
-  - Outliers  
+| Step | Description |
+|------|-------------|
+| **T – Tag issues** | Identify common data problems: missing values, inconsistent formats, noise, and duplicates—including exact, near, fuzzy, and structural variants |
+| **R – Review structure** | Understand what each row represents, explore schema, and map variables to business context |
+| **A – Amend selectively** | Clean or engineer new columns without overwriting the original source—preserve raw integrity |
+| **C – Check for logic conflicts** | Surface unsolvable issues like nulls, timestamp anomalies, and business logic violations |
+| **E – Establish documentation** | Establish documentation	Log all identified issues, decisions made, and resolutions for auditability and transparency |
 
-- **R – Review structure**  
-  Understand what each row represents, explore the schema, and map columns to business context.
-
-- **A – Amend selectively**  
-  Clean or engineer new columns without overwriting the original source—preserve raw integrity.
-
-- **C – Check for logic conflicts**  
-  Surface deeper issues, including:
-  - Timestamp anomalies  
-  - Invalid categories  
-  - Broken relationships  
-
-- **E – Establish documentation**  
-  Log all issues, decisions, assumptions, and fixes to ensure transparency and support future collaboration.
-
-Use TRACE to bring clarity, confidence, and repeatability to your data cleaning process—especially in scalable, client-facing environments.
+This framework ensures that data cleaning isn’t just reactive—it’s thoughtful, scalable, and client-ready.  
+Use TRACE to uncover the story behind your data, avoid hidden pitfalls, and deliver insights with confidence.

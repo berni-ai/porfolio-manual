@@ -82,3 +82,22 @@ Real analysts don’t chase perfection—we aim for clarity, consistency, and in
   Maintain detailed logs or comments. They reflect analytical rigor and support team visibility.
 
 ---
+
+## 💡 Analyst Mindset Tips
+
+Good analysts focus on clarity—not perfection. Here are a few mindset principles that guide scalable, thoughtful work:
+
+- Don’t chase perfection—**chase clarity**
+- Prioritise **traceability** and **repeatability**
+- Surface **uncertainty** in your insights
+- Show your **thought process** through logs and notebooks
+
+---
+
+## 📌 Rule of Thumb
+
+> If fewer than ~20% of rows are affected by an unsolvable issue:  
+> **Document it, flag it, and proceed confidently.**
+
+---
+

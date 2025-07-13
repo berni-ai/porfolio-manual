@@ -25,7 +25,7 @@ A practical 5-step framework to clean complex data.
 
 ---
 
-## 🧩 Step 1: Handling Specific Issues
+## 🧩 Phase I
 
 1. **Missing Values & Inconsistences**  
 - Avoid imputation unless justified—it can introduce bias.
@@ -48,7 +48,7 @@ A practical 5-step framework to clean complex data.
 
 ---
 
-## 🧼 Step 2: Cleaning Etiquette
+## 🧼 Phase II
 
 - **Replicate Before You Modify**  
   Always create a copy of the original dataset before applying changes.

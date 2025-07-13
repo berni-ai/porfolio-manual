@@ -88,7 +88,6 @@ Good analysts focus on clarity—not perfection. Here are a few mindset principl
 ## 🧠 Final Thoughts
 
 Before jumping into analysis, ask yourself. **What story does this data help me tell?**
-
-This project ensures your dataset is clean and structured to identify the key metrics and dimensions that support real business questions.
+Ensure you have conceptualised the data to be able to identify the key metrics and dimensions that support real business questions.
 
 ---

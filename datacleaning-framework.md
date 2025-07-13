@@ -1,6 +1,6 @@
 ## 🧼 How Real Data Analysts Clean Data on the Job?
 
-As an analyst, do not chase perfection when prepping data for analysis, aim for clarity, consistency, and data cleaning steps *good enough to analyze, share, and iterate on.*
+As an analyst, do not chase perfection when prepping data for analysis, aim for clarity, consistency, and data *good enough to analyze, share, and iterate on.*
 
 ---
 

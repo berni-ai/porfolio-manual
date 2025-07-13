@@ -25,7 +25,7 @@ A practical 5-step framework to clean complex data.
 
 ---
 
-## 🧩 Phase I
+## 🔍TRA = Discovery Steps
 1. **Missing Values & Inconsistences**  
 - Avoid imputation unless justified—it can introduce bias.
 - Check for inconsistent categories (e.g. `"XBOX"` vs `"Xbox"`)
@@ -42,7 +42,7 @@ A practical 5-step framework to clean complex data.
 
 ---
 
-## 🧼 Phase II
+## 🧠 CE = Validation Steps
 1. **Replicate Before You Modify**  
 - Always create a copy of the original dataset before applying changes.
 

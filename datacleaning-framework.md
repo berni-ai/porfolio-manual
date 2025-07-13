@@ -12,6 +12,4 @@ Use TRACE to uncover the story behind your data, avoid hidden pitfalls, document
 | **R – Review structure** | Understand what each row represents, explore schema, and map columns to business context |
 | **A – Amend selectively** | Clean new columns without overwriting the original source—preserve raw data integrity |
 | **C – Check for conflicts** | Surface unsolvable issues like nulls, timestamp anomalies, and business logic violations |
-| **E – Establish doc** | Log all identified issues and evaluate their magnitude. This helps prioritise fixes!|
-
-
+| **E – Establish documentation** | Log all identified issues and evaluate their magnitude. This helps prioritise fixes!|

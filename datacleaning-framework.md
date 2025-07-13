@@ -94,7 +94,7 @@ Good analysts focus on clarity—not perfection. Here are a few mindset principl
 
 ## 📌 Rule of Thumb
 
-> If fewer than ~20% of rows are affected by an unsolvable issue. **Document it, flag it, and proceed confidently.**
+> If fewer than ~20% of rows are affected by an unsolvable issue. **Document it, flag it, and analyse.**
 
 ---
 ## 🧠 Final Thoughts

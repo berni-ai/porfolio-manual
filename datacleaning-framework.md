@@ -12,4 +12,4 @@ An intuitive framework for analysts and data scientists to solve messy data prob
 | **C – Check for logic conflicts** | Surface deeper issues—e.g. timestamp anomalies, invalid categories, or broken relationships |
 | **E – Establish documentation** | Log issues, decisions, fixes, assumptions, and flags for transparency and future collaboration |
 
-Use TRACE to uncover the story behind your data, avoid hidden pitfalls, and deliver insights with confidence.
+Use TRACE to uncover the story behind your data, avoid hidden pitfalls, and clean the data to the place where analysis can be done with confidence.

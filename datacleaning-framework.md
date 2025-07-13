@@ -5,7 +5,7 @@ Real analysts do not chase perfection. We aim for clarity, consistency, and insi
 ---
 
 ## 🧱 The TRACE Framework
-A practical 5-step framework to clean complex data. Data is messy, TRACE it back to clarity. 
+A practical 5-step framework to clean complex data. 
 
 | Step | Description |
 |------|-------------|

@@ -5,7 +5,7 @@ As an analyst, do not chase perfection when prepping data for analysis, aim for 
 ---
 
 ## 🚊 The TRACE Framework
-A practical 5-step framework to clean complex data. 
+A 5-step framework for cleaning complex, business-relevant datasets that reflect real-world messiness. 
 
 | Step | Description |
 |------|-------------|

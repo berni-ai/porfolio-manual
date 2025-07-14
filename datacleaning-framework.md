@@ -1,9 +1,3 @@
-## 🧼 How Real Data Analysts Clean Data on the Job?
-
-As an analyst, do not chase perfection when prepping data for analysis, aim for clarity, consistency, and data in a *good enough place to analyze, share, and iterate on.*
-
----
-
 ## 🚊 The TRACE Framework
 A 5-step framework for cleaning a data that is very realistic given its business relevance, metric, dimensions and messiness of the dataset.
 

@@ -16,7 +16,7 @@ Use this practical framework to assess, clean, and deliver datasets confidently 
 | **A – Augment** | Clean without overwriting original columns—preserve source integrity. Add new columns and track all changes.|
 | **N – Note and share** | Log and evaluate issue magnitude and fixes applied. Track unresolved questions and downstream impact.|
 | **U – Update team** | Share findings with relevant parties—align on unresolved logic gaps and validate business assumptions. |
-| **P – Prepare next steps** | Check if the cleaning done is sufficient to support meaningful and reliable analysis. |
+| **P – Progress Issue** | Check if the cleaning done is sufficient to support meaningful and reliable analysis. |
 
 This method helps protects raw data lineage, encourage critical thinking about business logic and promotes transparency and reproducibility.
 

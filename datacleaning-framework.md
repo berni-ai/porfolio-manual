@@ -2,13 +2,13 @@
 
 | Step | Description |
 |------|-------------|
-| **C – Conceptualise the Data** | Understand the business context. What does each row represent? Clarify schema, field relationships, and stakeholder expectations before jumping into cleaning. |
+| **C – Context** | Understanding the data and features. What does each row represent? Clarify schema, field relationships, and stakeholder expectations before jumping into cleaning. |
 | **L – Locate Solvable Issues** | Eyeball for fixable problems like missing values, duplicate variations, inconsistent formats, and statistical outliers. |
-| **E – Evaluate Unsolvable Issues** | Identify anomalies that conflict with business logic: nulls in required fields, time zone drifts, broken joins, and timestamp irregularities. |
-| **A – Augment the Data Thoughtfully** | Clean or enrich without overwriting original columns—preserve source integrity. Add new columns and track transformations. |
+| **E – Examine** | Identify anomalies that conflict with business logic: nulls in required fields, time zone drifts, broken joins, and timestamp irregularities. |
+| **A – Augment** | Clean or enrich without overwriting original columns—preserve source integrity. Add new columns and track transformations. |
 | **N – Note and Document** | Log all issues found and fixes applied. Track assumptions, unresolved questions, and potential impacts downstream. |
-| **U – Update the Team** | Summarize findings and share with relevant stakeholders—align on unresolved gaps and get clarity on business logic when needed. |
-| **P – Prepare for Analysis** | Final checks on structure, completeness, and readiness. Validate that the dataset supports reporting or modeling goals. |
+| **U – Update Stakeholders** | Summarize findings and share with relevant stakeholders—align on unresolved gaps and get clarity on business logic when needed. |
+| **P – Prepare Next Steps** | Final checks on structure, completeness, and readiness. Validate that the dataset supports reporting or modeling goals. |
 
 ---
 

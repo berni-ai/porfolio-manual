@@ -1,22 +1,31 @@
-## 🧹 CLEANUP Framework
+## 🧹 CLEANUP: Real-World Data Cleaning Framework
 
-| Step | Description |
-|------|-------------|
-| **C – Collect data context** | Understand the data and its features. Ask clarifying questions to validate assumptions and confirm interpretations of business logic.|
-| **L – Locate solvable issues** | Scan for solvable issues such as inconsistencies in format, duplicate variations.|
-| **E – Examine** | Identify and investigate anomalies that conflict with business logic. |
-| **A – Augment** | Clean without overwriting original columns—preserve source integrity. Add new columns and track transformations. |
-| **N – Note and document** | Log all issues found, magnitude and fixes applied. Track assumptions, unresolved questions, and potential impacts downstream. |
-| **U – Update stakeholders** | Summarize findings and share with relevant stakeholders—align on unresolved gaps and get clarity on business logic when needed. |
-| **P – Prepare next steps** |  Check if the cleaning done is good enough to enable meaningful and reliable analysis. |
+> How do you clean data without compromising source integrity?
+
+Use this practical framework to assess, clean, and deliver datasets confidently for reporting, analysis, or modeling.
 
 ---
 
-## 💡 Why CLEANUP?
+## ✅ CLEANUP Framework
 
-- ✅ Preserves original data lineage
+| Step | Description |
+|------|-------------|
+| **C – Collect data context** | Understand the data and its features. Ask clarifying questions to validate assumptions and confirm interpretations of business logic. |
+| **L – Locate solvable issues** | Scan for solvable issues such as inconsistencies in format, duplicate variations, and invalid categories. |
+| **E – Examine** | Identify and investigate anomalies that conflict with business logic, such as broken joins or timestamp irregularities. |
+| **A – Augment** | Clean without overwriting original columns—preserve source integrity. Add new columns and track all transformations. |
+| **N – Note and document** | Log all issues found, their magnitude, and fixes applied. Track assumptions, unresolved questions, and downstream impact. |
+| **U – Update stakeholders** | Share findings with relevant parties—align on unresolved logic gaps and validate business assumptions. |
+| **P – Prepare next steps** | Check if the cleaning done is sufficient to support meaningful and reliable analysis. |
+
+---
+
+## 💡 Why CLEANUP Works
+- ✅ Protects raw data lineage
 - ✅ Encourages critical thinking about business logic
-- ✅ Promotes scalable, reproducible data workflows
+- ✅ Promotes transparency and reproducibility
+
+Use CLEANUP as your go-to framework for transforming chaos into clarity.
 
 ---
 ## 📦 Project Context: The Gamezone Dataset

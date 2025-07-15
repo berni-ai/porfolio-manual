@@ -2,7 +2,7 @@
 
 | Step | Description |
 |------|-------------|
-| **C – Collect data context and clarify Qs** | Understanding the data and features. Get clarity on business logic when needed|
+| **C – Collect data context** | Understand the data and its features. Ask clarifying questions to validate assumptions and confirm interpretations of business logic.|
 | **L – Locate solvable issues** | Scan for solvable issues such as inconsistencies in format, duplicate variations.|
 | **E – Examine** | Identify and investigate anomalies that conflict with business logic. |
 | **A – Augment** | Clean without overwriting original columns—preserve source integrity. Add new columns and track transformations. |

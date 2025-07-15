@@ -11,11 +11,11 @@ Use this practical framework to assess, clean, and deliver datasets confidently 
 | Step | Description |
 |------|-------------|
 | **C – Conceptualise** | Data and feature understanding. Ask clarifying Qs and confirm how best to interpret business logic. |
-| **L – Locate solvable issues** | Scan for solvable issues such as inconsistencies in format, duplicate variations, and invalid categories. |
+| **L – Locate issues** | Scan for solvable issues such as inconsistencies in format, duplicate variations, and invalid categories. |
 | **E – Examine** | Identify and investigate anomalies that conflict with business logic, such as broken joins or timestamp irregularities. |
 | **A – Augment** | Clean without overwriting original columns—preserve source integrity. Add new columns and track all transformations. |
 | **N – Note and document** | Log and evaluate magnitue of issues found and fixes applied. Track unresolved questions and downstream impact. |
-| **U – Update stakeholders** | Share findings with relevant parties—align on unresolved logic gaps and validate business assumptions. |
+| **U – Update team** | Share findings with relevant parties—align on unresolved logic gaps and validate business assumptions. |
 | **P – Prepare next steps** | Check if the cleaning done is sufficient to support meaningful and reliable analysis. |
 
 This method helps protects raw data lineage, encourage critical thinking about business logic and promotes transparency and reproducibility.

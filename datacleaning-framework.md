@@ -1,14 +1,24 @@
-## 🚊 The TRACE Framework
-A 5-step framework for cleaning a data that is very realistic given its business relevance, metric, dimensions and messiness of the dataset.
+## 🧹 CLEANUP Framework
 
 | Step | Description |
 |------|-------------|
-| **T – Tag issues** | Eyeball for obvious issues: missing values, inconsistencies, outliers, and variations of duplicate|
-| **R – Review structure** | Understand what each row represents, explore schema, and map columns to business context |
-| **A – Amend selectively** | Clean new columns without overwriting the original source—preserve raw data integrity |
-| **C – Check for logic conflicts** | Surface unsolvable issues like nulls, timestamp anomalies, and business logic violations |
-| **E – Establish documentation** | Log all identified issues and evaluate their magnitude.|
+| **C – Conceptualise the Data** | Understand the business context. What does each row represent? Clarify schema, field relationships, and stakeholder expectations before jumping into cleaning. |
+| **L – Locate Solvable Issues** | Eyeball for fixable problems like missing values, duplicate variations, inconsistent formats, and statistical outliers. |
+| **E – Evaluate Unsolvable Issues** | Identify anomalies that conflict with business logic: nulls in required fields, time zone drifts, broken joins, and timestamp irregularities. |
+| **A – Augment the Data Thoughtfully** | Clean or enrich without overwriting original columns—preserve source integrity. Add new columns and track transformations. |
+| **N – Note and Document** | Log all issues found and fixes applied. Track assumptions, unresolved questions, and potential impacts downstream. |
+| **U – Update the Team** | Summarize findings and share with relevant stakeholders—align on unresolved gaps and get clarity on business logic when needed. |
+| **P – Prepare for Analysis** | Final checks on structure, completeness, and readiness. Validate that the dataset supports reporting or modeling goals. |
 
+---
+
+## 💡 Why CLEANUP?
+
+- ✅ Preserves original data lineage
+- ✅ Encourages critical thinking about business logic
+- ✅ Promotes scalable, reproducible data workflows
+
+---
 ## 📦 Project Context: The Gamezone Dataset
 
 **Gamezone** is a fictional yet business-relevant company that sells new and refurbished gaming products across multiple platforms.

@@ -14,7 +14,7 @@ Use this practical framework to assess, clean, and deliver datasets confidently 
 | **L – Locate issues** | Scan for solvable issues such as inconsistencies in format, duplicate variations, and invalid categories. |
 | **E – Examine** | Identify and investigate anomalies that conflict with business logic, such as broken joins or timestamp irregularities. |
 | **A – Augment** | Clean without overwriting original columns—preserve source integrity. Add new columns and track all changes.|
-| **N – Note and share** | Log and evaluate issue magnitude and fixes applied. Track unresolved questions and downstream impact.|
+| **N – Note changes** | Log and evaluate issue magnitude and fixes applied. Track unresolved questions and downstream impact.|
 | **U – Update team** | Share findings with relevant parties—align on unresolved logic gaps and validate business assumptions. |
 | **P – Progress Issue** | Check if the cleaning done is sufficient to support meaningful and reliable analysis. |
 

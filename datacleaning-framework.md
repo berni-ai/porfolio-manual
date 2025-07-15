@@ -2,7 +2,7 @@
 
 | Step | Description |
 |------|-------------|
-| **C – Context** | Understanding the data and features. What does each row represent? Clarify schema, field relationships, and stakeholder expectations before jumping into cleaning. |
+| **C – Collect Data Context and Clarify Qs** | Understanding the data and features. What does each row represent? Clarify schema, field relationships, and stakeholder expectations before jumping into cleaning. |
 | **L – Locate Solvable Issues** | Eyeball for fixable problems like missing values, duplicate variations, inconsistent formats, and statistical outliers. |
 | **E – Examine** | Identify anomalies that conflict with business logic: nulls in required fields, time zone drifts, broken joins, and timestamp irregularities. |
 | **A – Augment** | Clean or enrich without overwriting original columns—preserve source integrity. Add new columns and track transformations. |

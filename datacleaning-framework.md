@@ -10,7 +10,7 @@ Use this practical framework to assess, clean, and deliver datasets confidently 
 
 | Step | Description |
 |------|-------------|
-| **C – Collect data context** | Understand the data and its features. Ask clarifying questions to validate assumptions and confirm interpretations of business logic. |
+| **C – Collect data context** | Understand the data and its features. Ask clarifying questions and confirm interpretations of business logic. |
 | **L – Locate solvable issues** | Scan for solvable issues such as inconsistencies in format, duplicate variations, and invalid categories. |
 | **E – Examine** | Identify and investigate anomalies that conflict with business logic, such as broken joins or timestamp irregularities. |
 | **A – Augment** | Clean without overwriting original columns—preserve source integrity. Add new columns and track all transformations. |
